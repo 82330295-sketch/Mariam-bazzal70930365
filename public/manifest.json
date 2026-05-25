@@ -1,0 +1,8 @@
+{
+  "short_name": "Help Hub",
+  "name": "Community Help Hub",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2e7d32",
+  "background_color": "#f7faf7"
+}
