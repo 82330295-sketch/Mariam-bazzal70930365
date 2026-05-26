@@ -10,6 +10,10 @@ import About from "./pages/About";
 import Offer from "./pages/Offer";
 import Contact from "./pages/Contact";
 
+import Education from "./pages/Education";
+import HomeServices from "./pages/HomeServices";
+import WeddingServices from "./pages/WeddingServices";
+
 import { Routes, Route, useLocation } from "react-router-dom";
 
 function App() {
@@ -22,6 +26,11 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<LandingPage />} />
+
+          <Route path="/education" element={<Education />} />
+          <Route path="/home-services" element={<HomeServices />} />
+          <Route path="/wedding-services" element={<WeddingServices />} />
+
           <Route path="/login" element={<Login />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
