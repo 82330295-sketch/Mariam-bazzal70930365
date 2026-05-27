@@ -308,15 +308,11 @@ main {
 }
 
 .card {
-  background: #ffffff;
   width: 300px;
-  min-height: 430px;
+  background: white;
+  border-radius: 20px;
   padding: 20px;
-  border-radius: 18px;
-  border: 1px solid #d8e8d8;
-  box-shadow: 0 6px 18px rgba(31, 41, 51, 0.08);
   text-align: center;
-  transition: 0.3s;
   overflow: hidden;
 }
 
